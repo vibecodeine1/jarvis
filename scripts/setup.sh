@@ -48,7 +48,7 @@ Next manual steps:
    e.g.:
        claude mcp add --scope project --transport http gmail <server-url>
 4. Start the gateway with PM2:
-       pm2 start ecosystem.config.js
+       pm2 start ecosystem.config.cjs
        pm2 save
        pm2 startup   # follow the printed instructions to enable on boot
 5. Add the cron job for the morning briefing:

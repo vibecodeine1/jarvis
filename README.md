@@ -31,7 +31,7 @@ git 2.43.0 were present; `bun`, `pm2`, and `claude` were **not** installed
 5. Fill in `CLAUDE.md` with your real business context (replace every `<TODO>`).
 6. Connect MCP servers one by one (Section 4) and add their tool names to `.claude/settings.json` and `gateway/claude-runner.ts`'s allow-list.
 7. Authenticate Claude Code on the VPS (`claude` once, interactively).
-8. `pm2 start ecosystem.config.js && pm2 save && pm2 startup` to keep the gateway alive 24/7.
+8. `pm2 start ecosystem.config.cjs && pm2 save && pm2 startup` to keep the gateway alive 24/7.
 9. Add the cron entry for the 5am Morning Briefing.
 10. Send a test message in each topic thread and confirm the right agent replies.
 11. Harden: tighten the tool allow-list, add `--bare` where you want faster/cheaper runs, add logging/monitoring.
@@ -171,14 +171,14 @@ expecting all four sections to populate.
 bun install                 # or: npm install
 cp .env.example .env        # then fill it in
 claude                      # one-time: authenticate Claude Code
-pm2 start ecosystem.config.js
+pm2 start ecosystem.config.cjs
 pm2 save && pm2 startup
 ```
 
 To run without Bun (plain Node + tsx), use the `*:node` package.json
 scripts instead (`npm run gateway:node`), and change `interpreter: "bun"`
 to `"node"` plus `script: "gateway/index.ts"` → point PM2 at a `tsx`-based
-start command in `ecosystem.config.js`.
+start command in `ecosystem.config.cjs`.
 
 ## Next steps I'd recommend, in order
 
