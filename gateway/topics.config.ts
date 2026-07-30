@@ -69,6 +69,7 @@ export const TOPICS: TopicConfig[] = [
 const byThreadId = new Map(TOPICS.map((t) => [t.threadId, t]));
 
 export function resolveTopic(threadId: number | undefined): TopicConfig | undefined {
-  if (threadId === undefined) return undefined;
-  return byThreadId.get(threadId);
+  // Telegram omits message_thread_id for messages in the default "General"
+  // topic (its implicit thread id is always 1), so treat undefined as 1.
+  return byThreadId.get(threadId ?? 1);
 }
