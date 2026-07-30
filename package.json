@@ -1,0 +1,25 @@
+{
+  "name": "jarvis-assistant",
+  "version": "0.1.0",
+  "private": true,
+  "description": "24/7 multi-agent Telegram gateway to Claude Code, running specialist AI agents per topic thread.",
+  "type": "module",
+  "scripts": {
+    "gateway": "bun run gateway/index.ts",
+    "gateway:node": "tsx gateway/index.ts",
+    "morning-brief": "bun run cron/morning-briefing.ts",
+    "morning-brief:node": "tsx cron/morning-briefing.ts"
+  },
+  "dependencies": {
+    "grammy": "^1.30.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
