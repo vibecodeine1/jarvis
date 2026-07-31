@@ -36,12 +36,13 @@ before doing any work. Keep it accurate — stale context produces bad output.
   case studies) instead.
 
 ## 2. Team & Access
-- **Owner/operator:** Jeremiah Khoxayo, founder / sole operator.
+- **Owner/operator:** Jeremiah Khoxayo, founder.
 - **Team members:** Chris — finance/accounting; Arturo — operations
   (scheduling, crew, equipment). Both have dedicated Telegram topic threads
-  (see Section 7). A ground/water support crew member will separately be
-  engaged as a 1099 contractor (or part-time W-2 paid per job) once job
-  volume starts — not a salaried hire in year one.
+  (see Section 7). Job-site crew is in-house, no 1099 contractors: Jeremiah,
+  Arturo, and Chris all serve as job-site operators; Arturo is the
+  designated FAA Part 107 drone pilot, with Jeremiah/Chris rotating as
+  ground/water support.
 - **Who approves what:** Draft only, for everyone. Jeremiah personally
   approves and sends every external communication, content post, contract,
   and spend — including anything Chris or Arturo prepare in their threads.
@@ -133,8 +134,9 @@ Key figures agents should know without re-reading the full plan:
 
 - **Capital strategy:** Launch on Lucid Bots' subscription model (Lucid
   Refresh, ~$2,950/mo) rather than purchasing a Sherpa outright
-  ($35,000–$75,000), rent support equipment, use 1099 labor, operate from a
-  home base, and sequence major cash outlay behind signed client deposits.
+  ($35,000–$75,000), rent support equipment, operate from a home base, and
+  sequence major cash outlay behind signed client deposits. No 1099
+  contractor labor — see Section 2 for ground/water support staffing model.
 - **Target launch capital:** ~$8,000–$15,000 lean (subscription model) vs.
   ~$70,000–$120,000+ full buildout (owned fleet).
 - **Funding ask (lean path):** $15,000–$20,000 for 90 days of runway — 40%
