@@ -67,12 +67,16 @@ function generateBriefing(): Promise<string> {
 
 async function sendToTelegram(text: string): Promise<void> {
   const url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
+  const threadId = Number(GENERAL_THREAD_ID);
   const res = await fetch(url, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
       chat_id: GROUP_CHAT_ID,
-      message_thread_id: Number(GENERAL_THREAD_ID),
+      // Telegram rejects an explicit message_thread_id for the default
+      // "General" topic (id 1) on sendMessage — omit it to post there,
+      // same as how incoming messages from General omit the field too.
+      ...(threadId !== 1 ? { message_thread_id: threadId } : {}),
       text,
     }),
   });
