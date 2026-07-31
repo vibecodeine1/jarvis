@@ -18,18 +18,10 @@ const DEFAULT_ALLOWED_TOOLS = [
   "Glob",
   "WebFetch",
   "WebSearch",
-  // Notion (read-only subset — see README "Integration Layer")
-  "mcp__notion__notion-search",
-  "mcp__notion__notion-fetch",
-  "mcp__notion__notion-download-attachment",
-  "mcp__notion__notion-get-comments",
-  "mcp__notion__notion-get-async-task",
-  "mcp__notion__notion-get-teams",
-  "mcp__notion__notion-get-users",
-  "mcp__notion__notion-query-data-sources",
-  "mcp__notion__notion-query-database-view",
-  "mcp__notion__notion-query-meeting-notes",
-  "mcp__notion__notion-create-pages",
+  // Notion — full read/write access, including destructive tools
+  // (update-page, update-data-source, move-pages, etc.) — see README
+  // "Integration Layer" and CLAUDE.md "Global Rules for Every Agent".
+  "mcp__notion__*",
   // Scoped to this one file — not a blanket Edit grant. See CLAUDE.md
   // "Global Rules for Every Agent" for how agents should treat this.
   "Edit(CLAUDE.md)",

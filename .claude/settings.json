@@ -6,17 +6,7 @@
       "Glob",
       "WebFetch",
       "WebSearch",
-      "mcp__notion__notion-search",
-      "mcp__notion__notion-fetch",
-      "mcp__notion__notion-download-attachment",
-      "mcp__notion__notion-get-comments",
-      "mcp__notion__notion-get-async-task",
-      "mcp__notion__notion-get-teams",
-      "mcp__notion__notion-get-users",
-      "mcp__notion__notion-query-data-sources",
-      "mcp__notion__notion-query-database-view",
-      "mcp__notion__notion-query-meeting-notes",
-      "mcp__notion__notion-create-pages",
+      "mcp__notion__*",
       "Edit(CLAUDE.md)"
     ],
     "deny": [

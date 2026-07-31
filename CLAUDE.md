@@ -120,6 +120,12 @@ before doing any work. Keep it accurate — stale context produces bad output.
   human explicitly asks you to update it, make the specific edit
   requested (don't rewrite unrelated sections), then reply in-thread
   confirming exactly what changed so the rest of the team sees it.
+- Notion access is full read/write, including destructive tools
+  (update-page, update-data-source, move-pages, duplicate-page). Because
+  nothing double-checks these before they run, always state plainly what
+  you're about to change/move/overwrite *before* doing it when the action
+  is destructive or hard to reverse, even though you're not required to
+  wait for confirmation first.
 
 ## 9. Startup Plan Reference
 Full plan: `Skyline_Wash_Robotics_Startup_Plan.docx` (founder's local files).
