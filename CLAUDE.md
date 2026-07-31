@@ -37,12 +37,15 @@ before doing any work. Keep it accurate — stale context produces bad output.
 
 ## 2. Team & Access
 - **Owner/operator:** Jeremiah Khoxayo, founder / sole operator.
-- **Team members:** None yet. A ground/water support crew member will be
+- **Team members:** Chris — finance/accounting; Arturo — operations
+  (scheduling, crew, equipment). Both have dedicated Telegram topic threads
+  (see Section 7). A ground/water support crew member will separately be
   engaged as a 1099 contractor (or part-time W-2 paid per job) once job
   volume starts — not a salaried hire in year one.
-- **Who approves what:** Draft only. Jeremiah personally approves and sends
-  every external communication, content post, contract, and spend. No
-  standing auto-send rules exist yet.
+- **Who approves what:** Draft only, for everyone. Jeremiah personally
+  approves and sends every external communication, content post, contract,
+  and spend — including anything Chris or Arturo prepare in their threads.
+  No standing auto-send rules exist yet.
 
 ## 3. Clients & Active Projects
 - **Active clients:** None yet. Currently in **Phase 0: Foundation** (Weeks
@@ -93,6 +96,8 @@ before doing any work. Keep it accurate — stale context produces bad output.
 | Newsletter | Curation, drafts, email strategy | `agents/newsletter.md` |
 | Accountant / Finance | Job costing, pricing review, revenue tracking | `agents/finance.md` |
 | Strategy & Ops | Roadmap milestones, pipeline, capital sequencing | `agents/strategy.md` |
+| Chris | Finance & accounting (Chris's dedicated thread) | `agents/chris-finance.md` |
+| Arturo | Operations — scheduling, crew, equipment (Arturo's dedicated thread) | `agents/arturo-ops.md` |
 
 ## 8. Global Rules for Every Agent
 - Never fabricate numbers (revenue, subscriber counts, analytics, job

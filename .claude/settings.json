@@ -6,6 +6,19 @@
       "Glob",
       "WebFetch",
       "WebSearch"
+    ],
+    "deny": [
+      "Read(.env)",
+      "Read(**/.env)",
+      "Read(~/.ssh/**)",
+      "Read(~/.claude/**)",
+      "Read(~/.pm2/**)",
+      "Read(~/.bash_history)",
+      "Grep(.env)",
+      "Grep(**/.env)",
+      "Grep(~/.ssh/**)",
+      "Grep(~/.claude/**)",
+      "Grep(~/.bash_history)"
     ]
   }
 }

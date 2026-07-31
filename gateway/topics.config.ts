@@ -64,6 +64,18 @@ export const TOPICS: TopicConfig[] = [
     threadId: requireThreadId("TOPIC_ID_STRATEGY"),
     systemPromptFile: "agents/strategy.md",
   },
+  {
+    key: "chris",
+    label: "Chris — Finance & Accounting",
+    threadId: requireThreadId("TOPIC_ID_CHRIS"),
+    systemPromptFile: "agents/chris-finance.md",
+  },
+  {
+    key: "arturo",
+    label: "Arturo — Operations",
+    threadId: requireThreadId("TOPIC_ID_ARTURO"),
+    systemPromptFile: "agents/arturo-ops.md",
+  },
 ];
 
 const byThreadId = new Map(TOPICS.map((t) => [t.threadId, t]));
