@@ -68,7 +68,8 @@ before doing any work. Keep it accurate — stale context produces bad output.
 - CRM/Sales: <TODO — not yet decided>
 - Accounting: <TODO — not yet decided>
 - Scheduling/PM: <TODO — not yet decided>
-- Docs/Wiki: <TODO — not yet decided>
+- Docs/Wiki: **Notion** (connected — read-only tools: search, fetch,
+  comments, users, teams, data sources, database/meeting-notes queries)
 - Marketing/content: <TODO — not yet decided>
 
 ## 5. Communication Guidelines

@@ -18,7 +18,14 @@ if (!BOT_TOKEN || !GROUP_CHAT_ID || !GENERAL_THREAD_ID) {
 // Read-only aggregation tools this briefing is allowed to call. Extend this
 // list with the exact mcp__<server>__<tool> names once your real MCP
 // servers are connected — run `claude mcp list` / `/mcp` to see them.
-const ALLOWED_TOOLS = ["Read", "WebFetch"];
+const ALLOWED_TOOLS = [
+  "Read",
+  "WebFetch",
+  "mcp__notion__notion-search",
+  "mcp__notion__notion-fetch",
+  "mcp__notion__notion-query-data-sources",
+  "mcp__notion__notion-query-database-view",
+];
 
 function generateBriefing(): Promise<string> {
   return new Promise((resolve, reject) => {

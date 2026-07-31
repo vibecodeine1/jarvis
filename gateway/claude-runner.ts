@@ -12,7 +12,24 @@ const MODEL = process.env.CLAUDE_MODEL ?? "claude-sonnet-4-6";
 // purpose — see CLAUDE.md "Global Rules for Every Agent". Add scoped
 // MCP tool names here (e.g. "mcp__stripe__get_balance") as you connect
 // real MCP servers; see README for how to discover exact tool names.
-const DEFAULT_ALLOWED_TOOLS = ["Read", "Grep", "Glob", "WebFetch", "WebSearch"];
+const DEFAULT_ALLOWED_TOOLS = [
+  "Read",
+  "Grep",
+  "Glob",
+  "WebFetch",
+  "WebSearch",
+  // Notion (read-only subset — see README "Integration Layer")
+  "mcp__notion__notion-search",
+  "mcp__notion__notion-fetch",
+  "mcp__notion__notion-download-attachment",
+  "mcp__notion__notion-get-comments",
+  "mcp__notion__notion-get-async-task",
+  "mcp__notion__notion-get-teams",
+  "mcp__notion__notion-get-users",
+  "mcp__notion__notion-query-data-sources",
+  "mcp__notion__notion-query-database-view",
+  "mcp__notion__notion-query-meeting-notes",
+];
 
 export interface RunResult {
   text: string;
