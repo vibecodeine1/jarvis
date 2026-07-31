@@ -30,6 +30,9 @@ const DEFAULT_ALLOWED_TOOLS = [
   "mcp__notion__notion-query-database-view",
   "mcp__notion__notion-query-meeting-notes",
   "mcp__notion__notion-create-pages",
+  // Scoped to this one file — not a blanket Edit grant. See CLAUDE.md
+  // "Global Rules for Every Agent" for how agents should treat this.
+  "Edit(CLAUDE.md)",
 ];
 
 export interface RunResult {

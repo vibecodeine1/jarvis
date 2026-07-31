@@ -16,7 +16,8 @@
       "mcp__notion__notion-query-data-sources",
       "mcp__notion__notion-query-database-view",
       "mcp__notion__notion-query-meeting-notes",
-      "mcp__notion__notion-create-pages"
+      "mcp__notion__notion-create-pages",
+      "Edit(CLAUDE.md)"
     ],
     "deny": [
       "Read(.env)",

@@ -116,6 +116,10 @@ before doing any work. Keep it accurate — stale context produces bad output.
   — flag them as such, and recommend confirming current numbers with
   Lucid Bots / insurance carriers / a CPA before quoting a client or
   investor.
+- This file is shared context every agent in every topic loads — if a
+  human explicitly asks you to update it, make the specific edit
+  requested (don't rewrite unrelated sections), then reply in-thread
+  confirming exactly what changed so the rest of the team sees it.
 
 ## 9. Startup Plan Reference
 Full plan: `Skyline_Wash_Robotics_Startup_Plan.docx` (founder's local files).
