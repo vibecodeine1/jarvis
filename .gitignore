@@ -3,3 +3,4 @@ node_modules/
 .sessions/
 *.log
 .DS_Store
+TEAM_NOTES.md

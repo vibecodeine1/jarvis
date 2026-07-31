@@ -7,6 +7,8 @@ before doing any work. Keep it accurate — stale context produces bad output.
 > Fill in every `<TODO>` before going live. Treat this like onboarding a new
 > hire: assume they know nothing about the business.
 
+@TEAM_NOTES.md
+
 ## 1. Business Model
 - **What we do:** Skyline Wash Robotics provides autonomous drone-based
   exterior facade, window, and rooftop cleaning services for mid-rise
@@ -36,17 +38,10 @@ before doing any work. Keep it accurate — stale context produces bad output.
   case studies) instead.
 
 ## 2. Team & Access
-- **Owner/operator:** Jeremiah Khoxayo, founder.
-- **Team members:** Chris — finance/accounting; Arturo — operations
-  (scheduling, crew, equipment). Both have dedicated Telegram topic threads
-  (see Section 7). Job-site crew is in-house, no 1099 contractors: Jeremiah,
-  Arturo, and Chris all serve as job-site operators; Arturo is the
-  designated FAA Part 107 drone pilot, with Jeremiah/Chris rotating as
-  ground/water support.
-- **Who approves what:** Draft only, for everyone. Jeremiah personally
-  approves and sends every external communication, content post, contract,
-  and spend — including anything Chris or Arturo prepare in their threads.
-  No standing auto-send rules exist yet.
+Current team, staffing model, and approval policy: see `TEAM_NOTES.md`
+(auto-loaded above via `@TEAM_NOTES.md`) — that file is where staffing
+facts get updated as they change, so it's kept out of this git-tracked
+file on purpose.
 
 ## 3. Clients & Active Projects
 - **Active clients:** None yet. Currently in **Phase 0: Foundation** (Weeks
@@ -117,9 +112,9 @@ before doing any work. Keep it accurate — stale context produces bad output.
   — flag them as such, and recommend confirming current numbers with
   Lucid Bots / insurance carriers / a CPA before quoting a client or
   investor.
-- This file is shared context every agent in every topic loads — if a
-  human explicitly asks you to update it, make the specific edit
-  requested (don't rewrite unrelated sections), then reply in-thread
+- For staffing/team changes, edit `TEAM_NOTES.md` (not `CLAUDE.md` — you
+  don't have write access to `CLAUDE.md` itself). Make the specific edit
+  requested, don't rewrite unrelated sections, then reply in-thread
   confirming exactly what changed so the rest of the team sees it.
 - Notion access is full read/write, including destructive tools
   (update-page, update-data-source, move-pages, duplicate-page). Because

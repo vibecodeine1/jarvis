@@ -7,7 +7,7 @@
       "WebFetch",
       "WebSearch",
       "mcp__notion__*",
-      "Edit(CLAUDE.md)"
+      "Edit(TEAM_NOTES.md)"
     ],
     "deny": [
       "Read(.env)",

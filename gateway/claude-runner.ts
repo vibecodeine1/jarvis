@@ -22,9 +22,11 @@ const DEFAULT_ALLOWED_TOOLS = [
   // (update-page, update-data-source, move-pages, etc.) — see README
   // "Integration Layer" and CLAUDE.md "Global Rules for Every Agent".
   "mcp__notion__*",
-  // Scoped to this one file — not a blanket Edit grant. See CLAUDE.md
-  // "Global Rules for Every Agent" for how agents should treat this.
-  "Edit(CLAUDE.md)",
+  // Scoped to this one file — not a blanket Edit grant. TEAM_NOTES.md is
+  // gitignored and @-imported from CLAUDE.md, so agent edits here never
+  // conflict with git. CLAUDE.md itself is git-tracked and not editable
+  // by agents — see CLAUDE.md "Global Rules for Every Agent".
+  "Edit(TEAM_NOTES.md)",
 ];
 
 export interface RunResult {
