@@ -99,6 +99,7 @@ before doing any work. Keep it accurate — stale context produces bad output.
 | Strategy & Ops | Roadmap milestones, pipeline, capital sequencing | `agents/strategy.md` |
 | Chris | Finance & accounting (Chris's dedicated thread) | `agents/chris-finance.md` |
 | Arturo | Operations — scheduling, crew, equipment (Arturo's dedicated thread) | `agents/arturo-ops.md` |
+| Teaching | Part 107 prep, drone/Sherpa concepts, business fundamentals — shared by the whole team | `agents/teaching.md` |
 
 ## 8. Global Rules for Every Agent
 - Never fabricate numbers (revenue, subscriber counts, analytics, job

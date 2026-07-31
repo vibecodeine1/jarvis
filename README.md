@@ -75,6 +75,7 @@ Each topic thread maps to one system-prompt file in `agents/`:
 | Strategy & Ops | `agents/strategy.md` |
 | Chris (Finance & Accounting) | `agents/chris-finance.md` |
 | Arturo (Operations) | `agents/arturo-ops.md` |
+| Teaching & Training | `agents/teaching.md` |
 
 Thread IDs are read from `.env` (`TOPIC_ID_*`). To find a thread's ID: open
 the topic in Telegram, tap "..." → copy link — the trailing number in

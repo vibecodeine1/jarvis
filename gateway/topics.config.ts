@@ -76,6 +76,12 @@ export const TOPICS: TopicConfig[] = [
     threadId: requireThreadId("TOPIC_ID_ARTURO"),
     systemPromptFile: "agents/arturo-ops.md",
   },
+  {
+    key: "teaching",
+    label: "Teaching & Training",
+    threadId: requireThreadId("TOPIC_ID_TEACHING"),
+    systemPromptFile: "agents/teaching.md",
+  },
 ];
 
 const byThreadId = new Map(TOPICS.map((t) => [t.threadId, t]));
