@@ -29,6 +29,7 @@ const DEFAULT_ALLOWED_TOOLS = [
   "mcp__notion__notion-query-data-sources",
   "mcp__notion__notion-query-database-view",
   "mcp__notion__notion-query-meeting-notes",
+  "mcp__notion__notion-create-pages",
 ];
 
 export interface RunResult {
